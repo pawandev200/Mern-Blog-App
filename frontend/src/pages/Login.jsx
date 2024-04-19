@@ -16,8 +16,12 @@ const Login = () => {
   const handleLogin=async()=>{
     try{
       const res=await axios.post(URL+"/api/auth/login",{email,password},{withCredentials:true})
+      // console.log(res.data)
+      // setUser(res.data)
       console.log(res.data)
-      setUser(res.data)
+      setUser(res.data.info)
+      const token=res.data.token
+      localStorage.setItem("token",token)
       navigate("/")
 
     }
