@@ -25,7 +25,7 @@ export function UserContextProvider({children}){
         const token=localStorage.getItem("token")
         // console.log(token);
         const res=await axios.get(URL+"/api/auth/refetch",{params:{token:token}},{withCredentials:true})
-        console.log(res.data)
+        // console.log(res.data)
         setUser(res.data)
 
       }
