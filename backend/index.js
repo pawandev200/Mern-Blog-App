@@ -28,7 +28,7 @@ const connectDB=async()=>{
 dotenv.config()
 app.use(express.json())
 app.use("/images",express.static(path.join(__dirname,"/images")))
-app.use(cors({credentials: true, origin: {'https://mern-blog-app-e1zu.vercel.app','http://localhost:5173'}}));
+app.use(cors({credentials: true, origin: ['https://mern-blog-app-e1zu.vercel.app','http://localhost:5173']}));
 // app.use(cors({credentials: true, origin: 'hhttps://mern-blog-app-frontend-2.onrender.com'}));
 
 app.use(cookieParser())
