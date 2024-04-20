@@ -8,7 +8,7 @@ The Blog Application is a web-based platform designed to allow users to create, 
 2. Frontend: React.js, TailwindCSS
 3. Backend: Node.js, Express.js
 4. Database: MongoDB
-5. Deployment: Heroku
+5. Deployment: Render + vercel
 
 ## Features
 
