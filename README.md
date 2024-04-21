@@ -16,4 +16,5 @@ The Blog Application is a web-based platform designed to allow users to create, 
 2. User-friendly Interface: Enhanced user experience with a modern and visually appealing UI powered by TailwindCSS.
 3. Search Functionality: Efficiently find relevant blogs with integrated search functionality.
 4. Blog Management: Read all blogs, write new blog posts, update existing posts, and delete posts.
-5. User Interaction: Ability to comment on blog posts and interact with other users.
+5. Profile Updation Feature: Users can easily update their profiles, including their username, email, and password, ensuring personalized and secure access.Additionally, users can view their own created blog posts for easy management and content review.
+6. User Interaction: Ability to comment on blog posts and interact with other users.
